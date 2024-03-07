@@ -1,0 +1,27 @@
+name: Build Container and Site for Prod
+run-name: Build Container and Site for Prod
+on: push
+jobs:
+  Build Container and Site for Prod:
+    runs-on: ubuntu-latest
+    steps:
+      - name: "Checkout Repo"
+        uses: actions/checkout@main
+
+      - name: "Login to GHCR"
+        uses: docker/login-action@v1
+        with:
+          registry: ghcr.io
+          username: ${{github.actor}}
+          password: ${{secrets.GITHUB_TOKEN}}
+
+      - name: "Build Image"
+        run: |
+          sudo apt-get install ruby-full build-essential zlib1g-dev
+          echo 'export GEM_HOME="$HOME/gems"' >> ~/.bashrc
+          echo 'export PATH="$HOME/gems/bin:$PATH"' >> ~/.bashrc
+          source ~/.bashrc
+          gem install jekyll bundler
+          bundle exec jekyll build
+          docker build . --tag ghcr.io/MegaShinySnivy/aurum-site:latest
+          docker push ghcr.io/MegaShinySnivy/aurum-site:latest
