@@ -2,7 +2,7 @@ name: Build Container and Site for Prod
 run-name: Build Container and Site for Prod
 on: push
 jobs:
-  Build Container and Site for Prod:
+  Build-Container-and-Site-for-Prod:
     runs-on: ubuntu-latest
     steps:
       - name: "Checkout Repo"
