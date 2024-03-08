@@ -3,6 +3,7 @@ run-name: Build Container and Site for Prod
 on: push
 jobs:
   Build-Container-and-Site-for-Prod:
+    permissions: write-all
     runs-on: ubuntu-latest
     steps:
       - name: "Checkout Repo"
