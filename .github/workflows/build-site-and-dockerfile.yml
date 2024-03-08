@@ -22,7 +22,7 @@ jobs:
           echo 'export PATH="$HOME/gems/bin:$PATH"' >> ~/.bashrc
           source ~/.bashrc
           sudo gem install jekyll bundler
-          bundle install
+          sudo bundle install
           bundle exec jekyll build
           docker build . --tag ghcr.io/MegaShinySnivy/aurum-site:latest
           docker push ghcr.io/MegaShinySnivy/aurum-site:latest
