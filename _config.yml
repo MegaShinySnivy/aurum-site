@@ -20,6 +20,7 @@ author: Aurum
 ###############################################
 
 navbar-links:
+  Home: "index"
   About Me: "aboutme"
   Page Source: https://github.com/MegaShinySnivy/aurum-site
 ################
