@@ -14,10 +14,10 @@ Helldivers is a game that has a good soul, if it could stop tripping over its ow
 
 If they want some advice:
 
-* Stop nerfing all the fun toys, balance from the bottom up and give me more reasons to vary my loadout.<sup>1<sup/>
-* Focus on fixing the game-breaking and performance bugs. Love the DoT fixes, more of those please.<sup>2<sup/>
-* Slow down on pushing new things out the door, and shore up code quality. Unrelated changes should not break unrelated things.<sup>3<sup/>
-* If you want us to use our strategems against heavy enemies, stop making us unable to use them all the time,<sup>4<sup/> or give us more ways to temporarily deal with them while they're in effect.<sup>5<sup/>
+* Stop nerfing all the fun toys, balance from the bottom up and give me more reasons to vary my loadout.<sup>1</sup>
+* Focus on fixing the game-breaking and performance bugs. Love the DoT fixes, more of those please.<sup>2</sup>
+* Slow down on pushing new things out the door, and shore up code quality. Unrelated changes should not break unrelated things.<sup>3</sup>
+* If you want us to use our strategems against heavy enemies, stop making us unable to use them all the time,<sup>4</sup> or give us more ways to temporarily deal with them while they're in effect.<sup>5</sup>
 
 Fix these and I think Arrowhead and their leach, Sony, will have a golden goose able to provide long after the game should be dead.
 
